@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ee">
+  <title>Bold ni Charles — Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Bold ni Charles home"><span class="brand-mark">✳</span> Bold ni Charles</a>
+    <a class="about-link" href="#gallery">Your photo collection <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="top">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">A place for the things you want to keep</p>
+      <h1 id="page-title">Bold ni<br><em>Charles</em></h1>
+      <p class="intro-copy">A cozy home for your favorite photographs. Add your pictures to the <code>images</code> folder, then list them in the gallery below.</p>
+      <a class="button" href="#gallery">See the gallery <span aria-hidden="true">↓</span></a>
+      <span class="sun-doodle" aria-hidden="true">✺</span>
+    </section>
+
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Collected in one place</p><h2 id="gallery-title">Your gallery</h2></div>
+        <span class="photo-count">A growing collection <span aria-hidden="true">♡</span></span>
+      </div>
+
+      <div class="gallery">
+        <!-- Add photos by copying a card and changing the image path and caption.
+             Put your image files in the images folder, for example images/beach.jpg. -->
+        <figure class="photo-card card-tall">
+          <img src="images/photo-1.jpeg.jpg" alt="Replace with a description of your photo" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+          <div class="photo-placeholder" hidden><span>✿</span><strong>Your first photo</strong><small>Save an image as <code>images/photo-1.jpeg.jpg</code></small></div>
+          <figcaption><span>01</span><span>A favorite memory</span></figcaption>
+        </figure>
+        <figure class="photo-card card-short">
+          <img src="images/photo-2.jpeg.jpg" alt="Replace with a description of your photo" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+          <div class="photo-placeholder" hidden><span>☼</span><strong>Sunny little days</strong><small>Save an image as <code>images/photo-2.jpeg.jpg</code></small></div>
+          <figcaption><span>02</span><span>Out and about</span></figcaption>
+        </figure>
+        <figure class="photo-card card-short">
+          <img src="images/photo-3.jpeg.jpg" alt="Replace with a description of your photo" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+          <div class="photo-placeholder" hidden><span>♡</span><strong>Good company</strong><small>Save an image as <code>images/photo-3.jpeg.jpg</code></small></div>
+          <figcaption><span>03</span><span>The people I love</span></figcaption>
+        </figure>
+        <figure class="photo-card card-tall">
+          <img src="images/photo-4.jpg" alt="Replace with a description of your photo" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+          <div class="photo-placeholder" hidden><span>✧</span><strong>A place to remember</strong><small>Save an image as <code>images/photo-4.jpg</code></small></div>
+          <figcaption><span>04</span><span>Somewhere beautiful</span></figcaption>
+        </figure>
+      </div>
+      <p class="gallery-note">Made to hold onto the good stuff <span aria-hidden="true">✳</span></p>
+    </section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark">✳</span> Bold ni Charles</a><span>Keep the memories close.</span></footer>
+</body>
+</html>
